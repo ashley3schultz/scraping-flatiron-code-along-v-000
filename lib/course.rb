@@ -14,24 +14,5 @@ class Course
   def self.reset_all
     @@all.clear 
   end 
-  
-  def get_page 
-    
-  end 
-  
-  def get_courses 
-    #uses he CSS selector to return an ML elements
-  end 
-  
-  def make_courses 
-    #iterates over the coarse array - creates new coarse instance
-  end 
-  
-  def print_courses 
-    
-    
-  end 
-  
-  
 end 
 
