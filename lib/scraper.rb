@@ -15,6 +15,7 @@ class Scraper
   def get_courses 
     doc.css(".post").first.css("h2").text
     doc.css(".post").first.css(".date").text
+    doc.css(".post").first.css("p").text
     
     #uses he CSS selector to return an XML elements
   end 
