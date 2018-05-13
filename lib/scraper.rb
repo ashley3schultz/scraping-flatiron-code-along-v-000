@@ -13,7 +13,7 @@ class Scraper
   end 
   
   def get_courses
-    doc.css(".post").each { |c| 
+    get_page.doc.each { |c| 
       t = c.css("h2").text
       #t = Course.new
       binding.pry
