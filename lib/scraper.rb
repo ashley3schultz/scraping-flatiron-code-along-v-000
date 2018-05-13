@@ -9,6 +9,7 @@ class Scraper
   def get_page 
     #uses nokogiri to get HTML fron the web page 
     Nokogiri::HTML(open("http://learn-co-curriculum.github.io/site-for-scraping/courses"))
+    Scraper.new.get_page
     binding.pry
   end 
   
