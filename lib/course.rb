@@ -24,7 +24,7 @@ class Course
   end 
   
   def make_courses 
-    
+    #iterates over the coarse array - creates new coarse instance
   end 
   
   def print_courses 
