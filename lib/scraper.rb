@@ -10,7 +10,7 @@ class Scraper
   end 
   
   def get_courses 
-    #uses he CSS selector to return an ML elements
+    #uses he CSS selector to return an XML elements
   end 
   
   def make_courses 
