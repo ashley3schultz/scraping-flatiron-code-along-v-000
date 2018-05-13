@@ -14,7 +14,7 @@ class Scraper
   
   def get_courses
     get_page.doc.each { |c| 
-    c.css(".post")
+    title = c.css(".post")
       t = c.css("h2").text
       #t = Course.new
       binding.pry
