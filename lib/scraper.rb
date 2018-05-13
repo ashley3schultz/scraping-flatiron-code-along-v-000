@@ -36,6 +36,7 @@ class Scraper
 end
 
 Scraper.new.get_page
+lib/scraper.rb
 
 
 
