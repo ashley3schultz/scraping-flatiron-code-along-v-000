@@ -13,8 +13,8 @@ class Scraper
   end 
   
   def get_courses
-    doc.css(".post").each { |coarse| 
-      t = coarse.css("h2").text
+    doc.css(".post").each { |c| 
+      t = c.css("h2").text
       #t = Course.new
       binding.pry
       
