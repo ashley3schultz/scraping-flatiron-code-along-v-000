@@ -12,7 +12,7 @@ class Scraper
   def get_courses 
     #uses he CSS selector to return an XML elements
     
-    doc = Nokogiri::HTML(open("http://flatironschool.com/http://learn-co-curriculum.github.io/site-for-scraping/courses"))
+    doc = Nokogiri::HTML(open("p://learn-co-curriculum.github.io/site-for-scraping/courses"))
   end 
   
   def make_courses 
