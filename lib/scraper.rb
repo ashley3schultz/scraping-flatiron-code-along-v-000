@@ -5,6 +5,18 @@ require_relative './course.rb'
 
 class Scraper
   
+  def get_page 
+    
+  end 
+  
+  def get_courses 
+    #uses he CSS selector to return an ML elements
+  end 
+  
+  def make_courses 
+    #iterates over the coarse array - creates new coarse instance
+  end 
+  
     def print_courses
     self.make_courses
     Course.all.each do |course|
