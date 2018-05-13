@@ -15,6 +15,12 @@ class Course
     @@all.clear 
   end 
   
-  def get_page
+  def get_page 
+    
+  end 
+  
+  def get_courses 
+    
+  end 
 end 
 
