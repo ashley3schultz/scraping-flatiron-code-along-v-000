@@ -9,11 +9,11 @@ class Scraper
   def get_page 
     #uses nokogiri to get HTML fron the web page 
     doc = Nokogiri::HTML(open("http://learn-co-curriculum.github.io/site-for-scraping/courses"))
-    doc.css(".post").first.css("h2").text
     #binding.pry
   end 
   
   def get_courses 
+        doc.css(".post").first.css("h2").text
     #uses he CSS selector to return an XML elements
   end 
   
