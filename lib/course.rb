@@ -20,7 +20,7 @@ class Course
   end 
   
   def get_courses 
-    
+    #uses he CSS selector to return an ML elements
   end 
   
   def make_courses 
